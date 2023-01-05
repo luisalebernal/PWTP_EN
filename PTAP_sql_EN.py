@@ -2073,17 +2073,17 @@ app.layout = dbc.Container([
                     dbc.Col([
                         dbc.Card([
                             dbc.CardBody([
-                                dbc.Row([
-                                    dbc.Col([
-                                        html.Video(
-                                            controls=True,
-                                            id='Corte',
-                                            src="/assets/PTAP_video.mp4",
-                                            autoPlay=True
-                                        ),
-                                    ]),
+                                #dbc.Row([
+                                #    dbc.Col([
+                                #        html.Video(
+                                #            controls=True,
+                                #            id='Corte',
+                                #            src="/assets/PTAP_video.mp4",
+                                #            autoPlay=True
+                                #        ),
+                                #    ]),
 
-                                ]),
+                                #]),
                                dbc.Row([
                                    dbc.Col([
                                    dbc.Carousel(
@@ -2097,7 +2097,7 @@ app.layout = dbc.Container([
                                         {"key": "1", "src": "/assets/PTAP7.jpeg", "header": "", },
                                         {"key": "1", "src": "/assets/PTAP8.jpeg", "header": "", },
                                         {"key": "1", "src": "/assets/PTAP9.jpeg", "header": "", },
-                                        {"key": "1", "src": "/assets/PTAP_video.mp4", "header": "", },
+                                        #{"key": "1", "src": "/assets/PTAP_video.mp4", "header": "", },
                                         # {"key": "1", "src": "/assets/PTAP_video.mp4", "header": "", },
 
 
